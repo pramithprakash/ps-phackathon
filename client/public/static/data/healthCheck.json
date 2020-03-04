@@ -1,0 +1,25 @@
+{
+    "healthCheck": [
+        {
+            "name": "mule",
+            "status": "200"
+        },
+        {
+            "name": "tomcat",
+            "status": "200"
+        },
+        {
+            "name": "sns",
+            "status": "200"
+        },
+        {
+            "name": "lambda",
+            "status": "400"
+        },
+        {
+            "name": "aem",
+            "status": "200"
+        }
+    ],
+    "jiraUrl": "https://jira.com"
+}

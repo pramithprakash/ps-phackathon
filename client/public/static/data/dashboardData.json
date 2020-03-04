@@ -1,0 +1,21 @@
+{
+    "title": "Dashboard",
+    "dashboard": {
+        "details": [
+            {
+                "title": "Feed File Processing",
+                "value": "",
+                "cta": "Learn More",
+                "icon": "ImportExportIcon",
+                "href": "/feed"
+            },
+            {
+                "title": "Health Check",
+                "value": "",
+                "cta": "Learn More",
+                "icon": "AccessAlarmIcon",
+                "href": "/healthcheck"
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "source": "UAT-2",
+    "destination": "Stream20",
+    "status": "inprogress",
+    "type": "Offers",
+    "duration": 5,
+    "startTime": "Wed Feb 26 2020 16:17:13 GMT+0530",
+    "uuid": "1234567ssss2",
+    "response" : {
+        "code" : 200,
+        "message" : "success"
+    }
+}

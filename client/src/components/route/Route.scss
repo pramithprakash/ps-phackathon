@@ -1,0 +1,15 @@
+.App{
+    .right-wrapper {
+        background-color: #fff;
+    }
+    .navigation {
+        max-width: 94px;
+    }
+
+    padding-right: 8px;
+    overflow: hidden;
+
+    .right-content{
+        max-width: calc(100% - 94px)
+    }
+}

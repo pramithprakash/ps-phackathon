@@ -1,0 +1,29 @@
+.left-nav-wrapper {
+	background-color: #f8f8fc;
+    border-radius: 4px;
+    min-height: 100vh;
+
+	a {
+		display: block;
+		text-decoration: none !important;
+		padding: 12px 0;
+		color: #000;
+		border-bottom: 1px dotted #ccc;
+		text-transform: uppercase;
+		font-size: 10px;
+        text-align: center;
+
+		&:hover {
+			color: #c3002f;
+			background-color: #f8f8fc;
+        }
+        
+        &:last-child {
+            border-bottom: none;
+        }
+
+        .MuiSvgIcon-root:hover {
+            color: #c3002f;
+        }
+	}
+}

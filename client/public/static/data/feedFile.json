@@ -1,0 +1,149 @@
+{
+    "feedFileSelections": {
+        "sourceEnvironment": [
+            "Prod",
+            "UAT-2",
+            "Stream20"
+        ],
+        "destinationEnvironment": [
+            "Stream19",
+            "Stream12",
+            "Stream18",
+            "Stream5"
+        ],
+        "market": [
+            "en_IN",
+            "en_GB",
+            "en_US"
+        ],
+        "site": [
+            "dark",
+            "live"
+        ],
+        "feedFileType": [
+            "Dealers",
+            "Offers",
+            "Inventory",
+            "BATD-Inventory",
+            "Leads"
+        ],
+        "brand": [
+            "Nissan",
+            "Infiniti"
+        ]
+    },
+    "feedFileStatus": [
+        {
+            "source": "Prod",
+            "destination": "Stream12",
+            "status": "done",
+            "type": "Dealers",
+            "duration": 45,
+            "uuid": "1234567s1",
+            "market": "en_IN",
+            "site": "dark",
+            "startTime": "Wed Feb 26 2020 10:32:13 GMT+0530"
+        },
+        {
+            "source": "UAT-2",
+            "destination": "Stream12",
+            "status": "done",
+            "type": "Inventory",
+            "duration": 45,
+            "uuid": "1234567s2",
+            "market": "en_IN",
+            "site": "live",
+            "startTime": "Wed Feb 25 2020 10:32:13 GMT+0530"
+        },
+        {
+            "source": "Prod",
+            "destination": "Stream12",
+            "status": "done",
+            "type": "Offers",
+            "duration": 45,
+            "uuid": "1234567s3",
+            "market": "en_GB",
+            "site": "dark",
+            "startTime": "Wed Feb 20 2020 10:32:13 GMT+0530"
+        },
+        {
+            "source": "UAT-2",
+            "destination": "Stream12",
+            "status": "inprogress",
+            "type": "Leads",
+            "duration": 45,
+            "uuid": "1234567s4",
+            "market": "en_GB",
+            "site": "live",
+            "startTime": "Wed Feb 10 2020 10:32:13 GMT+0530"
+        },
+        {
+            "source": "UAT-2",
+            "destination": "Stream19",
+            "status": "inprogress",
+            "type": "Inventory",
+            "duration": 10,
+            "startTime": "Wed Feb 09 2020 15:12:13 GMT+0530",
+            "uuid": "1234567s2",
+            "market": "en_GB",
+            "site": "dark",
+            "response": {
+                "code": 200,
+                "message": "success"
+            }
+        },
+        {
+            "source": "Prod",
+            "destination": "Stream01",
+            "status": "error",
+            "type": "Dealers",
+            "duration": 45,
+            "uuid": "1234567s6",
+            "market": "en_IN",
+            "site": "dark",
+            "startTime": "Wed Jan 10 2020 10:32:13 GMT+0530"
+        }
+    ],
+    "healthCheckStatus": [
+        {
+            "destination": "Stream12",
+            "status": "done"
+        },
+        {
+            "destination": "Stream12",
+            "status": "done"
+        },
+        {
+            "destination": "Stream12",
+            "status": "done"
+        },
+        {
+            "destination": "Stream12",
+            "status": "done"
+        },
+        {
+            "destination": "Stream10",
+            "status": "done"
+        },
+        {
+            "destination": "Stream2",
+            "status": "done"
+        },
+        {
+            "destination": "Stream2",
+            "status": "done"
+        },
+        {
+            "destination": "Stream5",
+            "status": "done"
+        },
+        {
+            "destination": "Stream3",
+            "status": "done"
+        },
+        {
+            "destination": "Stream15",
+            "status": "done"
+        }
+    ]
+}

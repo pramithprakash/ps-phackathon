@@ -1,0 +1,13 @@
+{
+    "source": "UAT-2",
+    "destination": "Stream19",
+    "status": "inprogress",
+    "type": "Inventory",
+    "duration": 10,
+    "startTime": "Wed Feb 19 2020 14:37:13 GMT+0530",
+    "uuid": "1234567s2",
+    "response" : {
+        "code" : 200,
+        "message" : "success"
+    }
+}
