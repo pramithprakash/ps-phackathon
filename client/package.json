@@ -13,7 +13,7 @@
     "chart.js": "^2.9.3",
     "form-serialize": "^0.7.2",
     "material-ui-treeview": "^4.1.0",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.12.0",
     "react-chartjs-2": "^2.9.0",
     "react-dom": "^16.12.0",
